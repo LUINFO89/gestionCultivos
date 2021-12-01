@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <!--- stylesheet CSS ---> 
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <!--- Icon Font Awason --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body style="background-color:#00AF91">
+    <div class="container align-items-center vh-100">
+        <div class="row justify-content-md-center align-items-center">
+            <div class="bg-green" style="padding: 30px 20px;border-radius: 15px;width: 400px;">
+                <div>
+                    <img class="container-fluid w-75 h-auto mb-2 mx-auto d-block" src="/img/logo.svg" alt="logo cultivos la planicie">
+                </div>
+                <hr class="border border-white">
+                <!--- Formulario de inicio de sesión --->
+                <div class="card-body">
+                    <form class="login-focus">
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-white">Correo Electrónico</label>
+                            <input type="email" class="form-control " id="email" placeholder="name@cultivoslaplanicie.com">
+                        </div
+
+                        <div class="mb-3">
+                            <label for="password" class="form-label text-white">Contraseña</label>
+                            <span class="icon-eye"><i class="fas fa-eye-slash"></i></span>
+                            <input type="password" class="form-control" id="password" placeholder="Contraseña">
+                        </div>
+                        
+                        <div class="d-grid gap-2 col-6 mx-auto mt-4">
+                            <button class="btn-orange" type="submit">Ingresar</button> 
+                        </div>
+                    </form>
+                </div>
+                <!--- fin formulario inicio de sesión --->  
+            </div>
+        </div>
+    </div>
+    <!--- Scripts --->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
