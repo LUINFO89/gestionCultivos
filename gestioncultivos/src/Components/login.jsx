@@ -26,11 +26,16 @@ export function Login() {
                     </div>
 
                     <div className ="d-grid gap-2 col-6 mx-auto mt-4">
-                    <button className ="btn-orange" type ="submit">Ingresar</button>
+                    <button className ="btn-orange" type ="submit">
+                        <Link to="/home" className="sidebar">Home</Link></button>
+                    {/* <!---<Link to="/home" className="sidebar">Home</Link>---> */}
+                    
+                    
                     </div>
                     
                     </form>
                     </div>
+                    
                     {/* <!--- fin formulario inicio de sesión---> */}
                 </div>
             </div>
