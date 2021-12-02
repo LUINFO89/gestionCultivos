@@ -89,7 +89,7 @@ export function HomeBase() {
                             {/* <!--Cabecera de la página --> */}
 
                             <header className
-                                ="col-lg-9 text-white p-0 fixed-top " style={{marginleft: '25%'}}>
+                                ="col-lg-9 text-white p-0 fixed-top " style={{marginInline: '25%'}}>
                                 <div className
                                     ="header-content bg-green ms-lg-3 p-lg-2 text-end">
                                     <div className
@@ -109,7 +109,7 @@ export function HomeBase() {
 
 
                             <main className
-                                ="col-lg-9 mt-lg-5  p-lg-0" style={{marginleft: '25%'}} >
+                                ="col-lg-9 mt-lg-5  p-lg-0" style={{marginInline: '25%'}} >
                                 <div className
                                     ="m-lg-3 mt-lg-0 ">
                                     <img style={{width:'100%', height: '300px'}} src="/img/homeBanner.webp" className
